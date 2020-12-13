@@ -1,0 +1,20 @@
+{
+"title": "Nourshing Cream - Almond Milk",
+"description": "The protein enriched almond-milk nourishing cream is supplemented by an effective base to give excellent glow to the skin.",
+"images": [
+	"assets/photo/NourishingCream.jpg"
+],
+"advantages": ["(-) The cream is enriched with Almond, Milk and Vitamins <br>",
+"(-) Useful for all types of skin <br>",
+"(-) Almond oil helps in excellent massaging <br>",
+"(-) It gives excellent soothing effect <br>",
+"(-) Helps in removing dead cells <br>",
+"(-) Very effective for skin protection and Nourishment <br>",
+"(-) It can be used as all season cream" ],
+"how-to-use" : [
+	"Wash your face with luke warm water.  Splash your face with cold water and gently pat it dry with a soft towel. ",
+	"Place a tiny amount of cream onto your ring finger and dab the cream onto your face in small dots. ",
+	"Gently massage the cream into your skin using small, upward, circular motions. Never drag downward on your skin.  ",
+	"Be sure to leave half inch margin around your eyes as this area is very sensitive.  ",
+	"Wait for your skin to absorb the cream before getting dressed or putting on makeup."]
+}
