@@ -11,7 +11,7 @@ try{
   params = window.location.search.split("id=")[1]
   id = params.split("&")[0]
   
-  path = "/products/{}.json".format(id)
+  path = "./products/{}.json".format(id)
 
   $.ajax({
     url: path,
