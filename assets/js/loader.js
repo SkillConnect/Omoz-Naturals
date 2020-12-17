@@ -44,6 +44,17 @@ function loadContents(data){
     loop: true,
     items: 1
   });
+
+  $(document).ready(function() {
+    $('.owl-carousel').magnificPopup({
+      delegate: 'a',
+      type:'image',
+      gallery:{
+        enabled:true,
+        tCounter: ''
+        }
+      });
+  });
 }
 
 function decorate(inputString) {
@@ -51,10 +62,10 @@ function decorate(inputString) {
 }
 
 function createImages(imagesArray) {
-  const base = '<img src="{}" class="img-fluid"/>';
+  const base = '<a href="./{}"><img src="{}" class="img-fluid"/></a>';
   var imgs = ""
   imagesArray.forEach(imageSrc => {
-    var img = base.format(imageSrc);
+    var img = base.format(imageSrc, imageSrc);
     imgs += img
   });
   console.log(imgs);
