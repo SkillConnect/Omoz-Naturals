@@ -4,6 +4,9 @@
 .img-fluid{
   border-radius: 7px;
 }
+.text-default {
+  color: #962cb3;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -461,7 +464,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .carousel-item::before {
   content: '';
-  background-color: rgba(13, 30, 45, 0.6);
+  background-color: rgba(13, 30, 45, 0.3);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -504,7 +507,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 
-#hero p {
+#hero p, #hero h4 {
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
@@ -695,7 +698,7 @@ section {
 # Featured Services
 --------------------------------------------------------------*/
 .featured-services .icon-box {
-  padding: 30px;
+  padding: 20px;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -703,6 +706,7 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
+  text-align: center;
 }
 
 .featured-services .icon-box::before {
