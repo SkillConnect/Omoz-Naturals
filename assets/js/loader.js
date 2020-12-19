@@ -15,6 +15,7 @@ try{
 
   $.ajax({
     url: path,
+    cache: false,
     dataType: "json",
     success: (data) => loadContents(data)
     })
@@ -58,7 +59,9 @@ function loadContents(data){
 }
 
 function decorate(inputString) {
-  return inputString.replaceAll("(-)", "<i class='bx bx-check'></i>")
+  while(inputString.includes("(-)")){
+    return inputString.replace("(-)", "<i class='bx bx-check'></i>")
+  }
 }
 
 function createImages(imagesArray) {
