@@ -109,23 +109,7 @@
     $('#header').addClass('header-scrolled');
     $('#topbar').addClass('topbar-scrolled');
   }
-
-  // Back to top button
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('.back-to-top').fadeIn('slow');
-    } else {
-      $('.back-to-top').fadeOut('slow');
-    }
-  });
-
-  $('.back-to-top').click(function() {
-    $('html, body').animate({
-      scrollTop: 0
-    }, 1500, 'easeInOutExpo');
-    return false;
-  });
-
+  
   // Init AOS
   function aos_init() {
     AOS.init({
@@ -135,6 +119,11 @@
   }
   $(window).on('load', function() {
     aos_init();
+  });
+
+  // Image popup
+  $('.popup').magnificPopup({
+    type: 'image'
   });
 
 })(jQuery);
