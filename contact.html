@@ -20,6 +20,7 @@
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css">
 
   <!-- Template Main CSS File -->
@@ -35,7 +36,7 @@
     @media (max-width: 750px){
       #description{display: none;}
       .hero-contact{
-        height: 110vh;
+        height: 115vh;
       }
       #hero-content {margin-top: 20%;}
     }
@@ -82,7 +83,7 @@
       <h1>CONTACT US</h1>
       <p id="description">We're always excited to answer your queries!</p>
 
-      <div class="row mt-3">
+      <div class="row mt-4">
         <div class="col-lg-6">
           <div class="info-box mb-4">
             <i class="bx bx-map"></i>
@@ -100,53 +101,77 @@
       </div>
 
       <br>
-      <a href="#main" class="btn btn-lg btn-success px-5" style="border-radius: 30px;">Place Order</a>
+      <a href="#contact" class="btn btn-lg btn-success px-5" style="border-radius: 30px;">Place Order</a>
     </div>
   </section>
   <!-- End Cta Section -->
 
-  <main id="main" class="mt-5 pt-5">
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
+  <!-- ======= Contact Section ======= -->
+  <section style="background-image: url('./assets/img/bg.svg');">
+    <div class="container" data-aos="fade-up" style="padding: auto 0;">
 
-        <div class="section-title">
-          <h2>Order</h2>
-          <h3><span>Order Form</span></h3>
-          <p>We take Bulk Orders!</p>
-        </div>
-
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-          <div class="form-row">
-            <div class="col form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-              <div class="validate"></div>
-            </div>
-            <div class="col form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-              <div class="validate"></div>
-            </div>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-            <div class="validate"></div>
-          </div>
-          <div class="form-group">
-            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Your Order Details"></textarea>
-            <div class="validate"></div>
-          </div>
-          <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your message has been sent. Thank you!</div>
-          </div>
-          <div class="text-center"><button type="submit">Send Message</button></div>
-        </form>
-
+      <div class="section-title">
+        <h2>Order</h2>
       </div>
-    </section><!-- End Contact Section -->
 
-  </main><!-- End #main -->
+      <div class="card shadow-lg" style="margin: 0 auto;">
+        <div class="card-header text-center">
+          <h3>Omoz Naturals Orders Form</h3>
+        </div>
+        <div class="card-body px-lg-5 ">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Contact</label>
+                <input type="number" class="form-control" id="inputPassword4" placeholder="Mobile Number">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Submit Order</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Contact Section -->
 
   <footer id="footer">
         &copy; Copyright <strong><span>Omoz Naturals</span></strong> All Rights Reserved 2020.
@@ -163,7 +188,5 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
-
 </html>

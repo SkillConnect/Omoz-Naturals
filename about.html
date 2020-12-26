@@ -26,13 +26,17 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <style>
-    #hero-n{
-      background: url('./assets/img/home/hero.jpg');
-      background-size: cover;
-      height: 600px;
+    #hero-about{
+      background: url('./assets/img/hero-about.jpg');
     }
-    #hero-n:after {
+    #hero-about:after {
       background: rgba(0, 0, 0, 1);
+    }
+    .v-center{margin: auto;}
+    #hero-card{margin-top: 150px;}
+    #hero-card p{color: black;}
+    @media (max-width: 700px){
+      #hero-card{margin-top: 80px;}
     }
   </style>
 </head>
@@ -71,23 +75,12 @@
   </header>
   <!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero-n" class="d-flex align-items-center">
-    <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <h1>Welcome to <span>Omoz Naturals</spa>
-      </h1>
-      <h2>Manufacturer of eco-friendly, Bio-degradable products</h2>
-    </div>
-  </section>
-  <!-- End Hero -->
-
-  <div class="container my-4">
-    <div class="row">
-      <div class="col-lg-5">
-        <img src="./assets/img/home/slide3.jpg" class="img-fluid">
-      </div>
-      <div class="col-lg-7 center">
-        <h1>Our Journey</h1>
+  <!-- Hero -->
+  <section id="hero-about">
+    <div class="container">
+      <div class="card text-center py-3 px-lg-5 px-2" id="hero-card">
+        <h1 style="margin-top: 10px;">Our <span class="text-default">Journey</span></h1>
+        <br>
         <p>
           Omoz Naturals is having a rich experience in Personal Care, Home Care and Cosmetic products 
           with well established infrastructural base. Omoz Naturals was developed in year 2019. We have 
@@ -100,13 +93,13 @@
         </p>
       </div>
     </div>
-  </div>
+  </section>
 
   <section class="section-bg">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 center">
-          <h1>Our Mission</h1>
+        <div class="col-lg-6 v-center">
+          <h1>Our <span class="text-default">Mission</span></h1>
           <p style=" line-height:2">
             <i class='bx bx-check-circle'></i> &nbsp; Our mission is to enhance your lifestyle as well as taking care of your hygiene through our products. <br>
             <i class='bx bx-check-circle'></i> &nbsp; Eco-friendly and easily biodegradable products. <br>
@@ -115,7 +108,7 @@
           </p>
         </div>
         <div class="col-lg-6">
-          <img src="./assets/img/home/slide1.jpg" class="img-fluid">
+          <img src="./assets/img/mission.jpg" class="img-fluid">
         </div>
   
       </div>
@@ -136,7 +129,7 @@
         <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
           <div class="member">
             <div class="member-img">
-              <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/team.jpg" class="img-fluid" alt="">
               <div class="social">
                 <a href=""><i class="icofont-twitter"></i></a>
                 <a href=""><i class="icofont-facebook"></i></a>
@@ -150,11 +143,11 @@
         <div class="col-lg-9 col-md-6">
           <div class="member">
             <div class="member-info">
-              <h4>Prashant Satpute</h4>
+              <h4>Shilpa Satpute</h4>
               <span style="margin-bottom:10px">Managing Director</span>
               <p style="all:unset;">
-                He is a Graduate in Automobile Engineering and has a vast experience in the
-                financial market. He was last associated with ICICI Securities. Has excellent hand-on experience in
+                SHe is a Graduate in Automobile Engineering and has a vast experience in the
+                financial market. SHe was last associated with ICICI Securities. Has excellent hand-on experience in
                 equity and derivates market. Has a two-year experience in Real Estate/Loans/Interior designing.
               </p>
               <h6 style="margin:10px 0px 15px">Get in touch!</h6>
