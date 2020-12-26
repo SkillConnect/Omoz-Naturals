@@ -1,42 +1,46 @@
 #hero-products{
-    margin-top: 120px;
-    height: 450px;
-    background: url('../img/home_care1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  .center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-size: 30px;
-    border-radius: 30px;
-  }
-  #hero-products::before {
-    content: '';
-    background-color: rgba(13, 30, 45, 0.3);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-  }
-  @media (max-width: 600px){
-    #hero-products {
-      background: url('../img/home_care.jpg');
-      margin-top: 80px;height: 250px;
-      background-size: cover;}
-    .center {font-size: 18px;margin: auto}
-  }
+  margin-top: 120px;
+  height: 500px;
+  background: url('../img/home_care1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  border-radius: 30px;
+}
+#hero-products::before {
+  content: '';
+  background-color: rgba(13, 30, 45, 0.3);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+@media (max-width: 600px){
+  #hero-products {
+    background: url('../img/home_care.jpg');
+    margin-top: 80px;height: 250px;
+    background-size: cover;}
+  .center {font-size: 18px;margin: auto}
+}
 
-  .card:hover {transform: scale(1.02); text-decoration:dotted underline; }
-  .card-img-top:hover { cursor: zoom-in;}
-  .productName{ color: #444444;}
-  .productName:hover {color:#962cb3; text-decoration:dotted underline; } 
+.card:hover {transform: scale(1.02); text-decoration:dotted underline; }
+.card-img-top:hover { cursor: zoom-in;}
+.productName{ color: #444444;}
+.productName:hover {color:#962cb3; text-decoration:dotted underline; } 
+.section-bg2 {
+  background-image: url('../img/bg.svg');
+  background-size: cover;
+}

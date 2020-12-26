@@ -60,8 +60,9 @@ function loadContents(data){
 
 function decorate(inputString) {
   while(inputString.includes("(-)")){
-    return inputString.replace("(-)", "<i class='bx bx-check'></i>")
+    inputString = inputString.replace("(-)", "<i class='bx bx-check'></i>")
   }
+  return inputString
 }
 
 function createImages(imagesArray) {
