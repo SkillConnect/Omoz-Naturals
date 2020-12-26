@@ -1,20 +1,10 @@
 #hero-products{
-  margin-top: 120px;
+  /* margin-top: 120px; */
   height: 500px;
   background: url('../img/home_care1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-size: 30px;
-  border-radius: 30px;
 }
 #hero-products::before {
   content: '';
