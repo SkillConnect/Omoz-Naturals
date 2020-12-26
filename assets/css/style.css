@@ -211,12 +211,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #009970 !important;
 }
 
-@media (max-width: 767px) {
-  .testimonials {
-    margin: 30px 10px;
-  }
-}
-
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -872,7 +866,7 @@ section {
 
 @media (max-width: 992px) {
   .breadcrumbs {
-    margin-top: 57px;
+    margin-top: 90px;
   }
 }
 
@@ -887,15 +881,15 @@ section {
   list-style: none;
   padding: 0 0 10px 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .breadcrumbs ol a {
-  color: #aaaaaa;
+  color: #000;
 }
 
 .breadcrumbs ol a:hover {
-  color: #000;
+  color: #962cb3;
   transition: 0.3s;
 }
 

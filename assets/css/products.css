@@ -28,8 +28,8 @@
 
 .card:hover {transform: scale(1.02); text-decoration:dotted underline; }
 .card-img-top:hover { cursor: zoom-in;}
-.productName{ color: #444444;}
-.productName:hover {color:#962cb3; text-decoration:dotted underline; } 
+.card-body {background-color: antiquewhite;}
+.productName, .productName:hover{ color:#962cb3; text-decoration:dotted underline; } 
 .section-bg2 {
   background-image: url('../img/bg.svg');
   background-size: cover;
