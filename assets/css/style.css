@@ -12,9 +12,8 @@
 .img-fluid{
   border-radius: 7px;
 }
-.text-default {
-  color: #962cb3;
-}
+.text-default {color: #962cb3 !important;}
+.text-default2{color:#8BC34A !important;}
 #carouselExampleCaptions{
   margin-top: 140px;
 }
