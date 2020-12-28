@@ -28,7 +28,11 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <style>
-    .v-center{margin: auto;}
+    #main{
+      background: linear-gradient(rgba(2, 2, 2, 0.2), rgba(0, 0, 0, 0.2)), url('./assets/img/leaf-bg.jpg');
+    }
+    h4{color:#8BC34A}
+    p{color:#962cb3}
   </style>
 </head>
 
@@ -79,22 +83,21 @@
   <!-- End Breadcrumbs -->
 
 
-  <main id="main" style="background: url('./assets/img/hero-about.jpg');">
+  <main id="main">
     <!-- ======= Portfolio Details ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container" data-aos="fade-up">        
         <br>
         <div class="row">
 
-          <div class="col-lg-5 mb-3 v-center">
+          <div class="col-lg-5">
             <div class="owl-carousel owl-theme" id="images">
               <!-- Images here -->
             </div>
             <img src="assets/img/products-404.jpg" class="img-fluid" id="defaultImage">
-            
           </div>
 
-          <div class="col-lg-7">
+          <div class="col-lg-7 mt-3 mt-lg-0">
             <div class="card shadow">
               <div class="card-body p-lg-5">
                 <h4>Description</h4>
@@ -118,8 +121,8 @@
                   How to use details not found.
                 </p>
                 <br>
-                <p id="available" style="font-size: 18px">
-                  <b>Available in: </b> Data not available
+                <p style="font-size: 18px">
+                  <b>Available in: </b> <span id="available">Data not available</span>
                 </p>
               </div>
             </div>

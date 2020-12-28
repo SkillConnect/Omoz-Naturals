@@ -1,14 +1,19 @@
 {
-"title": "Surface Cleaner Refill",
-"description": "Water based multipurpose spray for all surfaces for all surfaces, glass, car seat etc.",
-"images": [
-	"assets/photo/HomeCare/SurfaceCleanerRefill.jpg"
-],
-"advantages": ["(-) It is a multipurpose surface cleaner. <br>",
-"(-) Completely cleans your floors, walls, oily kitchen tyles, toilet and surfaces <br>",
-"(-) Gives good shine to your floor and surfaces <br>",
-"(-) Can be used for car washing <br>",
-"(-) Effective in removing stubborn stain in concentrated form <br>",
-"(-) Very pleasant fragrance <br>"],
-"how-to-use" : ["It is a concentrated surface cleaner. <br> Use 10ml surface cleaner in 1000ml clean water. Mop area completely with clean mopping cloth. For good effect keep mopped area as it is for fifteen minutes. Enjoy the clean and shiny surface with good fragrance to live better life."]
+	"title": "Surface Cleaner Refill",
+	"description": "Water based multipurpose spray for all surfaces for all surfaces, glass, car seat etc.",
+	"images": [
+		"assets/photo/HomeCare/SurfaceCleanerRefill.jpg"
+	],
+	"advantages": [
+		"(-) It is a multipurpose surface cleaner. <br>",
+		"(-) Completely cleans your floors, walls, oily kitchen tyles, toilet and surfaces <br>",
+		"(-) Gives good shine to your floor and surfaces <br>",
+		"(-) Can be used for car washing <br>",
+		"(-) Effective in removing stubborn stain in concentrated form <br>",
+		"(-) Very pleasant fragrance <br>"
+	],
+	"how-to-use": [
+		"It is a concentrated surface cleaner. <br> Use 10ml surface cleaner in 1000ml clean water. Mop area completely with clean mopping cloth. For good effect keep mopped area as it is for fifteen minutes. Enjoy the clean and shiny surface with good fragrance to live better life."
+	],
+	"available": "1 Ltr, 5 Ltrs"
 }

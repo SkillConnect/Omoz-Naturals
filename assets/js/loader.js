@@ -30,6 +30,7 @@ function loadContents(data){
   var images = data["images"];
   var advantages = decorate(data["advantages"].join(" "));
   var how = data["how-to-use"].join(" ");
+  var available = data["available"];
 
   document.getElementById("title").innerHTML += `${title}`
   document.getElementById("description").innerHTML = `${description}`
@@ -37,6 +38,7 @@ function loadContents(data){
   document.getElementById("how-to-use").innerHTML = `${how}`
   document.getElementById("images").innerHTML = createImages(images)
   document.getElementById("defaultImage").style = "display:none"
+  document.getElementById("available").innerHTML = `${available}`
 
   // Portfolio details carousel
   $(".owl-carousel").owlCarousel({

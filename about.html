@@ -28,18 +28,30 @@
   <style>
     #hero-about{
       background: linear-gradient(rgba(2, 2, 2, 0.2), rgba(0, 0, 0, 0.2)), url('./assets/img/hero-about.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
     }
     #hero-about:after {
       background: rgba(0, 0, 0, 1);
     }
+    #hero-card p{
+      color: #962cb3;
+      font-size: 16.5px;
+      font-weight: 600;
+    }
+    #mission p{
+      color: #962cb3;
+      font-size: 18px;
+      line-height:2;
+    }
     .v-center{margin: auto;}
     #hero-card{margin-top: 150px;}
-    #hero-card p{color: black;}
     @media (max-width: 700px){
       #hero-card{margin-top: 80px;}
     }
     #team{
-      background: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.3)), url('./assets/img/hero-about.jpg');
+      background: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.3)), url('./assets/img/bg.svg');
     }
   </style>
 </head>
@@ -84,7 +96,7 @@
       <div class="card text-center py-3 px-lg-5 px-2" id="hero-card">
         <h1 style="margin-top: 10px;" class="text-default2">Our <span >Journey</span></h1>
         <br>
-        <p class=text-default>
+        <p>
           Omoz Naturals is having a rich experience in Personal Care, Home Care and Cosmetic products 
           with well established infrastructural base. Omoz Naturals was developed in year 2019. We have 
           skilled professionals and world class R & D team who possess extensive experience in our range 
@@ -100,18 +112,23 @@
 
   <section class="section-bg">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 v-center">
-          <h1>Our <span class="text-default">Mission</span></h1>
-          <p style="font-size: 18px;line-height:2">
+      <div class="row" id="mission">
+        <div class="col-lg-7 v-center">
+          <h1>Company <span class="text-default2">Mission & Vision</span></h1>
+          <p>
             <i class='bx bx-check-circle'></i> &nbsp; Our mission is to enhance your lifestyle as well as taking care of your hygiene through our products. <br>
             <i class='bx bx-check-circle'></i> &nbsp; Eco-friendly and easily biodegradable products. <br>
             <i class='bx bx-check-circle'></i> &nbsp; Manufactured by a highly qualified technical and R&D team. <br>
-            <i class='bx bx-check-circle'></i> &nbsp; Efficient supply and distribution team to deliver products safely in time.
+            <i class='bx bx-check-circle'></i> &nbsp; Efficient supply and distribution team to deliver products safely in time. 
+            <br>
+          </p>
+          <p>
+            <b>Glam up your lifestyle radiating your beauty through our hygienic and safety assured products.
+              That’s very well our mission statement as well.</b>
           </p>
         </div>
-        <div class="col-lg-6">
-          <img src="./assets/img/about.jpg" class="img-fluid">
+        <div class="col-lg-5 v-center">
+          <img src="./assets/img/mission.jpg" class="img-fluid">
         </div>
   
       </div>
@@ -129,37 +146,33 @@
 
       <div class="row">
 
-        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-          <div class="member">
-            <div class="member-img">
-              <img src="assets/img/team.jpg" class="img-fluid" alt="">
-              <div class="social">
-                <a href=""><i class="icofont-twitter"></i></a>
-                <a href=""><i class="icofont-facebook"></i></a>
-                <a href=""><i class="icofont-instagram"></i></a>
-                <a href=""><i class="icofont-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
+        <div class="col-lg-5 col-md-6 v-center">
+          <img src="assets/img/team.jpg" class="img-fluid">
         </div>
 
-        <div class="col-lg-9 col-md-6">
+        <div class="col-lg-7 col-md-6">
           <div class="member">
             <div class="member-info px-lg-4">
               <h4>Shilpa Satpute</h4>
-              <span style="margin-bottom:10px">Managing Director</span>
-              <p style="all:unset;">
-                SHe is a Graduate in Automobile Engineering and has a vast experience in the
-                financial market. SHe was last associated with ICICI Securities. Has excellent hand-on experience in
-                equity and derivates market. Has a two-year experience in Real Estate/Loans/Interior designing.
+              <span style="margin-bottom:10px;font-size: 16px;">Managing Director</span>
+              <p style="all:unset;" class="text-default">
+                Omoz Naturals spearheaded by Ms. Shilpa Satpute since 2019, harps on the very essence of
+                consumer satisfaction. Shilpa with her rich experience in the Personal Care and Cosmetic
+                industries strives to bring this about , with total commitment to providing superior quality at
+                affordable prices. Eco friendly, safe and affordable - That’s been the motto of Omoz all
+                through. <br> <br>
+                Ms. Shilpa Prashant Satpute is Managing Director of the company.
+                She has huge experience in personal care, cosmetics, home care, and pharma industry. Always
+                wanted to give back to society through knowledge, experience to give eco-friendly , human friendly, 
+                affordable products. <br><br>
+                With experience of 25 yrs always strive to give human friendly products without compromising in
+                quality. Always strive to make available product to all people and give them value for their money.
+                To do and give innovative product which will be accepted and appreciated by consumers is always a
+                challenge. <br><br>
+                <b style="color: #444;">Opinion about women empowerment: </b> <br>
+                If women can manage home then there is no better management guru than herself and can do
+                business very well with good management skill and sincerity and Innovative way.
               </p>
-              <h6 style="margin:10px 0px 15px">Get in touch!</h6>
-              <h5>
-                <a href="https://twitter.com/" target="_blank"><i class="icofont-twitter" style="margin:10px"></i></a>
-                <a href="https://www.facebook.com/" target="_blank"><i class="icofont-facebook" style="margin-right:10px"></i></a>
-                <a href="javascript:void(0)"><i class="icofont-instagram" style="margin-right:10px"></i></a>
-                <a href="https://linkedin.com/in/" target="_blank"><i class="icofont-linkedin" style="margin-right:10px"></i></a>
-              </h5>
             </div>
           </div>
         </div>

@@ -1,22 +1,26 @@
 {
-"title": " Liquid Hand Wash",
-"description": "Ultra compact liquid hand wash with Glycerin and Vitamin E.",
-"images": [
-	"assets/photo/HandWash1.jpg",
-	"assets/photo/HandWash2.jpg",
-	"assets/photo/HandWash3.jpg",
-	"assets/photo/HandWash4.jpg"
-],
-"advantages": ["(-) Glycerine helps to keep skins natural moisture <br>",
-"(-) Glycerine prevent skin from drying <br>",
-"(-) Glycerine gives smoothness to skin <br>",
-"(-) Vitamin E is antioxidant <br>",
-"(-) Vitamin E provide extra nourishment to your skin <br>",
-"(-) Omoz liquid hand wash gives you complete cleaning of hands with nourishment and keeps them soft"],
-"how-to-use" : [
-"Wet your hands with clean water. ",
-"Apply liquid hand wash to the inside and back of your both hands, palm, fingertips, Nails. ",
-"Rub your both hands and move your fingertips around both hands. ",
-"Rinse with clean water to wash away. ",
-"Dry your hand completely." ]
+	"title": " Liquid Hand Wash",
+	"description": "Ultra compact liquid hand wash with Glycerin and Vitamin E.",
+	"images": [
+		"assets/photo/HandWash1.jpg",
+		"assets/photo/HandWash2.jpg",
+		"assets/photo/HandWash3.jpg",
+		"assets/photo/HandWash4.jpg"
+	],
+	"advantages": [
+		"(-) Glycerine helps to keep skins natural moisture <br>",
+		"(-) Glycerine prevent skin from drying <br>",
+		"(-) Glycerine gives smoothness to skin <br>",
+		"(-) Vitamin E is antioxidant <br>",
+		"(-) Vitamin E provide extra nourishment to your skin <br>",
+		"(-) Omoz liquid hand wash gives you complete cleaning of hands with nourishment and keeps them soft"
+	],
+	"how-to-use": [
+		"Wet your hands with clean water. ",
+		"Apply liquid hand wash to the inside and back of your both hands, palm, fingertips, Nails. ",
+		"Rub your both hands and move your fingertips around both hands. ",
+		"Rinse with clean water to wash away. ",
+		"Dry your hand completely."
+	],
+	"available": "500 ml Pump, 500 ml Refill, 5 Ltrs"
 }

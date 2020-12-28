@@ -1,14 +1,19 @@
 {
-"title": "Surface Cleaner Spray",
-"description": "Water based multipurpose spray for all surfaces for all surfaces, glass, car seat etc.",
-"imageCount": 3,
-"images": [
-	"assets/photo/HomeCare/Spray1.jpg"
-],
-"advantages": ["(-) Can be used on all surfaces since it is water based <br>",
-"(-) Reaches to all corners due to good spraying effect <br>",
-"(-) Cleanses all surfaces, gives better results <br>",
-"(-) Can be used in car, home at sitting area, wall, tyles, carpet, corridor, glass objects <br>",
-"(-) Very pleasant fragrance "],
-"how-to-use" : ["It is a ready to use multipurpose spray. Keep about six-inch (or as per your requirement) distance away from surface to be sprayed. Wipe with soft cloth or sponge (depending upon surface)."]
+	"title": "Surface Cleaner Spray",
+	"description": "Water based multipurpose spray for all surfaces for all surfaces, glass, car seat etc.",
+	"imageCount": 3,
+	"images": [
+		"assets/photo/HomeCare/Spray1.jpg"
+	],
+	"advantages": [
+		"(-) Can be used on all surfaces since it is water based <br>",
+		"(-) Reaches to all corners due to good spraying effect <br>",
+		"(-) Cleanses all surfaces, gives better results <br>",
+		"(-) Can be used in car, home at sitting area, wall, tyles, carpet, corridor, glass objects <br>",
+		"(-) Very pleasant fragrance "
+	],
+	"how-to-use": [
+		"It is a ready to use multipurpose spray. Keep about six-inch (or as per your requirement) distance away from surface to be sprayed. Wipe with soft cloth or sponge (depending upon surface)."
+	],
+	"available": "500 ml Pump"
 }
