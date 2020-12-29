@@ -12,8 +12,8 @@
 .img-fluid{
   border-radius: 7px;
 }
-.text-default {color: #962cb3 !important;}
-.text-default2{color:#8BC34A !important;}
+.text-default {color: #8001a2 !important;}
+.text-default2{color:#047728 !important;}
 #carouselExampleCaptions{
   margin-top: 140px;
 }
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../img/contact.png") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(0, 0, 0, 0.6)), url("../img/contact.png") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }

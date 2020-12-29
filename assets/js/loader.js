@@ -62,7 +62,7 @@ function loadContents(data){
 
 function decorate(inputString) {
   while(inputString.includes("(-)")){
-    inputString = inputString.replace("(-)", "<i class='bx bx-check'></i>")
+    inputString = inputString.replace("(-)", "<i class='bx bx-merge'></i>")
   }
   return inputString
 }

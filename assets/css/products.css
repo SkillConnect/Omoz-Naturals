@@ -26,10 +26,10 @@
   .center {font-size: 18px;margin: auto}
 }
 
-.card:hover {transform: scale(1.02); text-decoration:dotted underline; }
+.card:hover {transform: scale(1.02);}
 .card-img-top:hover { cursor: zoom-in;}
 .card-body {background-color: antiquewhite;}
-.productName, .productName:hover{ color:#962cb3; text-decoration:dotted underline; } 
+.productName, .productName:hover{ color:#962cb3; } 
 .section-bg2 {
   background-image: url('../img/bg.svg');
   background-size: cover;
