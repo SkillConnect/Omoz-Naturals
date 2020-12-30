@@ -12,7 +12,10 @@
 .img-fluid{
   border-radius: 7px;
 }
-.text-default {color: #8001a2 !important;}
+.text-default {
+  color: #8001a2 !important;
+  font-weight: bold;
+}
 .text-default2{color:#047728 !important;}
 #carouselExampleCaptions{
   margin-top: 140px;
@@ -110,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(0, 0, 0, 0.6)), url("../img/contact.png") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(0, 0, 0, 0.6)), url("../img/contact.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -147,6 +150,10 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.testimonials {
+  background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(0, 0, 0, 0.6)), url("../img/contact.jpg") fixed center center;
+  background-size: cover;
+}
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px;
@@ -252,12 +259,6 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: flex-end;
   align-items: center;
   padding: 20px;
-}
-
-.portfolio .portfolio-wrap .portfolio-info a {
-  font-size: 28px;
-  color: #fff;
-  font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
@@ -843,7 +844,7 @@ section {
 
 .section-title p {
   margin: 15px auto 0 auto;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 @media (min-width: 1024px) {
@@ -857,7 +858,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f1f6fe;
+  background: rgba(255, 255, 255, 0.5);
   min-height: 40px;
   margin-top: 130px;
   color: #000;
@@ -907,7 +908,7 @@ section {
 # Featured Services
 --------------------------------------------------------------*/
 .featured-services {
-  background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(0, 0, 0, 0.6)), url("../img/contact.png") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.6), rgba(0, 0, 0, 0.6)), url("../img/contact.jpg") fixed center center;
   background-size: cover;
 }
 
@@ -1363,7 +1364,7 @@ section {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 4px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.75);
   box-shadow: 0px 2px 15px rgba(16, 110, 234, 0.15);
 }
 

@@ -26,19 +26,10 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/products.css" rel="stylesheet">
   <style>
-    #hero-products{
-      height: 550px;
-      background: url('assets/img/personal_care.jpg');
-      background-position: center;
-      background-repeat: no-repeat;
+    body {
+      background: linear-gradient(rgba(2, 2, 2, 0.2), rgba(0, 0, 0, 0.5)), url('./assets/img/personal_care.jpg');
       background-size: cover;
-      position: relative;
-    }
-    @media (max-width: 700px){
-      #hero-products {
-        height: 300px;
-        background-size: cover;}
-      .center {font-size: 18px; margin-top: 20px;}
+      background-position: center;
     }
   </style>
 </head>
@@ -77,13 +68,21 @@
   </header>
   <!-- End Header -->
 
-  <div id="hero-products">
-    <a class="btn btn-primary center px-lg-5">Personal Care Products</a>
-  </div>
+  <!-- ======= Breadcrumbs ======= -->
+  <section class="breadcrumbs">
+    <div class="container">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li>Products & Services</li>
+      </ol>
+      <h2 class="text-default">Personal Care Products</h2>
+    </div>
+  </section>
+  <!-- End Breadcrumbs -->
 
   <!-- Main -->
   <section class="section-bg2">
-    <div class="container-fluid px-lg-5 my-4 portfolio2">
+    <div class="container-fluid px-lg-5 my-2 portfolio2">
       <div class="row">
         <div class="col-lg-3  mb-4">
           <div class="card shadow">
@@ -91,7 +90,7 @@
               <img src="./assets/photo/HairShampoo1.jpg" class="card-img-top">
             </a>
             <div class="card-body text-center">
-              <a class="productName" href="product.html?id=hair_shampoo"><h5 class="card-title">Sulphate Free Keratin Hair Shampoo</h5></a>
+              <a class="btn btn-info btn-lg px-4" style="border-radius: 20px;" href="product.html?id=hair_shampoo">Sulphate Free Keratin Hair Shampoo</a>
             </div>
           </div>
         </div>
@@ -101,7 +100,7 @@
               <img src="./assets/photo/FaceWash1.jpg" class="card-img-top">
             </a>
             <div class="card-body text-center">
-              <a class="productName" href="product.html?id=face_wash"><h5>Face Wash - Neem Tulsi <br><br></h5></a>
+              <a class="btn btn-info btn-lg px-4" style="border-radius: 20px;" href="product.html?id=face_wash">Face Wash - Neem Tulsi </a>
             </div>
           </div>
         </div>
@@ -111,7 +110,7 @@
               <img src="./assets/photo/NourishingCream.jpg" class="card-img-top">
             </a>
             <div class="card-body text-center">
-              <a class="productName" href="product.html?id=nourishing_cream"><h5>Nourshing Cream - Almond Milk</h5></a>
+              <a class="btn btn-info btn-lg px-4" style="border-radius: 20px;" href="product.html?id=nourishing_cream">Nourshing Cream - Almond Milk</a>
             </div>
           </div>
         </div>
@@ -121,7 +120,7 @@
               <img src="./assets/photo/FacialScrub.jpg" class="card-img-top">
             </a>
             <div class="card-body text-center">
-              <a class="productName" href="product.html?id=face_scrub"><h5>Face Scrub - Apricot <br><br></h5></a>
+              <a class="btn btn-info btn-lg px-4" style="border-radius: 20px;" href="product.html?id=face_scrub">Face Scrub - Apricot </a>
             </div>
           </div>
         </div>
@@ -131,7 +130,7 @@
               <img src="./assets/photo/MassageGelSmall.jpg" class="card-img-top">
             </a>
             <div class="card-body text-center">
-              <a class="productName" href="product.html?id=massage_gel"><h5>Massage Gel - Orange & Papaya</h5></a>
+              <a class="btn btn-info btn-lg px-4" style="border-radius: 20px;" href="product.html?id=massage_gel">Massage Gel - Orange & Papaya</a>
             </div>
           </div>
         </div>
@@ -141,7 +140,7 @@
               <img src="./assets/photo/FaceWash1.jpg" class="card-img-top">
             </a>
             <div class="card-body text-center">
-              <a class="productName" href="product.html?id=face_pack"><h5>Face Pack - Lavender & Sandal</h5></a>
+              <a class="btn btn-info btn-lg px-4" style="border-radius: 20px;" href="product.html?id=face_pack">Face Pack - Lavender & Sandal</a>
             </div>
           </div>
         </div>
@@ -151,7 +150,7 @@
               <img src="./assets/photo/BodyLotion.jpg" class="card-img-top">
             </a>
             <div class="card-body text-center">
-              <a class="productName" href="product.html?id=body_lotion"><h5>Body Lotion - Almond Honey <br><br></h5></a>
+              <a class="btn btn-info btn-lg px-4" style="border-radius: 20px;" href="product.html?id=body_lotion">Body Lotion - Almond Honey </a>
             </div>
           </div>
         </div>
@@ -161,7 +160,7 @@
               <img src="./assets/photo/HandWash4.jpg" class="card-img-top">
             </a>
             <div class="card-body text-center">
-              <a class="productName" href="product.html?id=hand_wash"><h5>HandWash Liquid <br><br></h5></a>
+              <a class="btn btn-info btn-lg px-4" style="border-radius: 20px;" href="product.html?id=hand_wash">HandWash Liquid </a>
             </div>
           </div>
         </div>
@@ -171,7 +170,7 @@
               <img src="./assets/photo/Sanitizer.jpg" class="card-img-top">
             </a>
             <div class="card-body text-center">
-              <a class="productName" href="product.html?id=sanitizer"><h5 class="card-title">Hand Cleanser</h5></a>
+              <a class="btn btn-info btn-lg px-4" style="border-radius: 20px;" href="product.html?id=sanitizer">Hand Cleanser</a>
             </div>
           </div>
         </div>
@@ -181,7 +180,7 @@
               <img src="./assets/photo/BodyWash.jpg" class="card-img-top">
             </a>
             <div class="card-body text-center">
-              <a class="productName" href="product.html?id=body_wash"><h5 class="card-title">Body Wash</h5></a>
+              <a class="btn btn-info btn-lg px-4" style="border-radius: 20px;" href="product.html?id=body_wash">Body Wash</a>
             </div>
           </div>
         </div>
@@ -191,7 +190,7 @@
               <img src="./assets/photo/OnionOil.jpg" class="card-img-top">
             </a>
             <div class="card-body text-center">
-              <a class="productName" href="product.html?id=onion_oil"><h5 class="card-title">Onion Oil</h5></a>
+              <a class="btn btn-info btn-lg px-4" style="border-radius: 20px;" href="product.html?id=onion_oil">Onion Oil</a>
             </div>
           </div>
         </div>
@@ -201,7 +200,7 @@
               <img src="./assets/photo/AloeVera.jpg" class="card-img-top">
             </a>
             <div class="card-body text-center">
-              <a class="productName" href="product.html?id=aloe_vera"><h5 class="card-title">Aloe Vera Gel</h5></a>
+              <a class="btn btn-info btn-lg px-4" style="border-radius: 20px;" href="product.html?id=aloe_vera">Aloe Vera Gel</a>
             </div>
           </div>
         </div>
@@ -211,7 +210,7 @@
               <img src="./assets/photo/BodyScrub.jpg" class="card-img-top">
             </a>
             <div class="card-body text-center">
-              <a class="productName" href="product.html?id=body_scrub"><h5 class="card-title">Herbal Face & Body Scrub</h5></a>
+              <a class="btn btn-info btn-lg px-4" style="border-radius: 20px;" href="product.html?id=body_scrub">Herbal Face & Body Scrub</a>
             </div>
           </div>
         </div>
