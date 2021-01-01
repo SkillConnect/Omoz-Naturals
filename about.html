@@ -14,6 +14,7 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;1000&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,30 +22,40 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css">
-  <link rel="stylesheet" href="assets/vendor/venobox/venobox.min.css" type="text/css" media="screen" />
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <style>
     #hero-about{
-      background: linear-gradient(rgba(2, 2, 2, 0.2), rgba(0, 0, 0, 0.2)), url('./assets/img/hero-about.jpg');
+      background: linear-gradient(rgba(2, 2, 2, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/img/hero-about.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
     }
-    #hero-about:after {
-      background: rgba(0, 0, 0, 1);
-    }
     #hero-card{
-      background-color: rgba(255, 255, 255, 0.65);
-      max-width: 500px;
+      max-width: 600px;
       margin: 0 auto;
+      color: white;
+      margin-top: 150px;
     }
-    #hero-card p{
-      color: #8c00b3;
-      font-size: 18px;
-      font-weight: 600;
-      font-style: italic;
+    #hero-card h1{
+      color: #ffbe00;
+      font-size:60px;
+      font-weight: 1000;
+      font-family: 'Dancing Script', cursive;
+    }
+    #hero-card h2{
+      font-size: 40px;
+      font-weight: 400;
+      font-family: 'Dancing Script', cursive;
+    }
+    @media (max-width: 700px){
+      #hero-card{margin-top: 80px;}
+      #hero-card h2{font-size: 30px;}
+    }
+    #mission{
+      background: linear-gradient(rgba(0,0,0,0.01), rgba(0, 0, 0, 0.1)), url("./assets/img/mission.jpg") fixed center center;
+      background-size: cover;
     }
     #mission p{
       color: #962cb3;
@@ -52,16 +63,15 @@
       font-weight: 600;
       line-height:2;
     }
-    .v-center{margin: auto;}
-    #hero-card{margin-top: 150px;}
-    @media (max-width: 700px){
-      #hero-card{margin-top: 80px;}
-    }
     #team{
-      background: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.3)), url('./assets/img/team-bg.jpg');
+      background: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.3)), url('./assets/img/team-bg.jpg') fixed center center;
       background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
+    }
+    .bx-ul li{
+      color: #962cb3;
+      font-size: 18px;
+      font-weight: 600;
+      line-height:2;
     }
   </style>
 </head>
@@ -103,47 +113,36 @@
   <!-- Hero -->
   <section id="hero-about">
     <div class="container">
-      <div class="text-center py-2" id="hero-card">
-        <h1 class="text-default2 my-3">Our <span >Journey</span></h1>
-        <p>
-          Omoz Naturals is having a  <br> rich experience in Personal Care, <br> Home Care and Cosmetic products  <br> 
-          with well established infrastructural base. <br> Omoz Naturals was developed in year 2019. <br> We have 
-          skilled professionals <br> and world class R & D team who possess <br> extensive experience in our range 
-          of products. <br> Hence we are able to produce these <br> products with the market requirement.
-        </p>
+      <div class="text-center" id="hero-card">
+        <h1 class="my-3">Our Journey</h1>
+        <h2>
+          Omoz Naturals is having a rich experience in Personal Care, Home Care and Cosmetic products 
+          with well established infrastructural base. Omoz Naturals was developed in year 2019. We have 
+          skilled professionals and world class R & D team who possess extensive experience in our range 
+          of products. Hence we are able to produce these products with the market requirement.
+        </h2>
       </div>
     </div>
   </section>
 
-  <section class="section-bg">
+  <section id="mission">
     <div class="container">
-      <div class="row" id="mission">
-        <div class="col-lg-7 v-center">
-          <h1 class="text-default2">Company Mission & Vision</h1>
-          <i>
-          <p>
-            <i class='bx bx-check-circle'></i> &nbsp; Our mission is to enhance your lifestyle as well as taking care of your hygiene through our products. <br>
-            <i class='bx bx-check-circle'></i> &nbsp; Eco-friendly and easily biodegradable products. <br>
-            <i class='bx bx-check-circle'></i> &nbsp; Manufactured by a highly qualified technical and R&D team. <br>
-            <i class='bx bx-check-circle'></i> &nbsp; Efficient supply and distribution team to deliver products safely in time. 
-            <br>
-          </p>
-          <p>
-            Omoz Naturals product range is manufactured as per the industry standards using excellent basic material. 
-            This range is widely acknowledged in the market. We strive hard to offer products at affordable pricing 
-            without any compromise made to the quality. We focus hard towards achieving maximum client satisfaction. 
-            We tempt to deliver the quality & availability of the products in-line with market demands.
-            <br>
-            Glam up your lifestyle radiating your beauty through our hygienic and safety assured products.
-            That’s very well our mission statement as well.
-          </p>
-          </i>
-        </div>
-        <div class="col-lg-5 v-center">
-          <img src="./assets/img/mission.jpg" class="img-fluid">
-        </div>
-  
-      </div>
+      <h1 class="text-default2">Company Mission & Vision</h1>
+      <ul class='bx-ul'>
+        <li><i class='bx bx-merge'></i> Our mission is to enhance your lifestyle as well as taking care of your hygiene through our products. <br></li>
+        <li><i class='bx bx-merge'></i> Eco-friendly and easily biodegradable products. <br></li>
+        <li><i class='bx bx-merge'></i> Manufactured by a highly qualified technical and R&D team. <br></li>
+        <li><i class='bx bx-merge'></i> Efficient supply and distribution team to deliver products safely in time. <br></li>
+      </ul>
+      <p>
+        Omoz Naturals product range is manufactured as per the industry standards using excellent basic material. 
+        This range is widely acknowledged in the market. We strive hard to offer products at affordable pricing 
+        without any compromise made to the quality. We focus hard towards achieving maximum client satisfaction. 
+        We tempt to deliver the quality & availability of the products in-line with market demands.
+        <br>
+        Glam up your lifestyle radiating your beauty through our hygienic and safety assured products.
+        That’s very well our mission statement as well.
+      </p>  
     </div>
   </section>
 
@@ -159,7 +158,7 @@
             consumer satisfaction. Shilpa with her rich experience in the Personal Care and Cosmetic
             industries strives to bring this about , with total commitment to providing superior quality at
             affordable prices. Eco friendly, safe and affordable - That’s been the motto of Omoz all
-            through. <br> <br>
+            through. <br><br>
             Ms. Shilpa Prashant Satpute is Managing Director of the company.
             She has huge experience in personal care, cosmetics, home care, and pharma industry. Always
             wanted to give back to society through knowledge, experience to give eco-friendly , human friendly, 
@@ -191,7 +190,6 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/js/main.js"></script>
 </body>
 </html>

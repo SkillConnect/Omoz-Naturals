@@ -28,9 +28,15 @@ function loadContents(data){
   var title = data["title"];
   var description = data["description"];
   var images = data["images"];
-  var advantages = decorate(data["advantages"].join(" "));
+  var advantages = decorate(data["advantages"]);
   var how = data["how-to-use"].join(" ");
   var available = data["available"];
+
+  var isHomeCare = data["home-care"]
+  if(isHomeCare){
+    document.body.style.background = "url('./assets/img/products-bg2.jpg') no-repeat"
+    document.body.style.backgroundSize = "cover";
+  }
 
   document.getElementById("title").innerHTML += `${title}`
   document.getElementById("description").innerHTML = `${description}`
@@ -60,11 +66,14 @@ function loadContents(data){
   });
 }
 
-function decorate(inputString) {
-  while(inputString.includes("(-)")){
-    inputString = inputString.replace("(-)", "<i class='bx bx-merge'></i>")
-  }
-  return inputString
+function decorate(inputArray) {
+  var outputString = "<ul class='bx-ul'>";
+  inputArray.forEach((inputString) => {
+    inputString = inputString.replace("(-)", "<li><i class='bx bx-merge'></i>")
+    outputString += inputString + "</li>"
+  })
+
+  return outputString + "</ul>"
 }
 
 function createImages(imagesArray) {

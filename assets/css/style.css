@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 30px 15px;
   text-align: center;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  background: #fff;
+  background: rgba(195, 232, 255, 0.863);
 }
 
 .testimonials .testimonial-item h3 {
@@ -811,7 +811,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f6f9fe;
+  background-color: #d9e6ff;
 }
 
 .section-title {
@@ -1559,10 +1559,9 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  background-color: #fff;
+  background: rgba(200, 253, 244, 0.863);
   color: #444444;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
   padding: 20px 0 30px 0;
 }
 
@@ -1571,7 +1570,7 @@ section {
   color: #962cb3;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #b3d1fa;
+  border: 2px dotted #962cb3;
 }
 
 .contact .info-box h3 {

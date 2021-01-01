@@ -33,12 +33,18 @@
       color: #fff;
     }
     #hero-content {margin-top: 17%;}
+    #contact2{
+      background: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.4)), url("./assets/img/form-bg.jpg") fixed center center;
+      background-size: cover;
+    }
     @media (max-width: 750px){
       #description{display: none;}
       .hero-contact{
-        height: 115vh;
+        height: auto;
       }
-      #hero-content {margin-top: 20%;}
+      #hero-content {
+        margin-top: 20%;
+      }
     }
   </style>
 </head>
@@ -94,7 +100,7 @@
         <div class="col-lg-4">
           <div class="info-box  mb-4">
             <i class="bx bx-phone"></i>
-            <h3>Shilpa Satpute</h3>
+            <h3>Call Us</h3>
             <p>+91 88502 78525 <br><br>
             </p>
           </div>
@@ -109,13 +115,13 @@
       </div>
 
       <br>
-      <a href="contact.html#contact2" class="btn btn-lg btn-success px-5" style="border-radius: 30px;">Place Order</a>
+      <a href="contact.html#contact2" class="btn btn-lg px-5" style="border-radius: 30px;background-color: #047728; color: white">Place Order</a>
     </div>
   </section>
   <!-- End Cta Section -->
 
   <!-- ======= Contact Section ======= -->
-  <section class="section-bg" id="contact2">
+  <section id="contact2">
     <div class="container" data-aos="fade-up" style="padding: auto 0;">
 
       <div class="section-title">
@@ -130,21 +136,21 @@
           <form>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputEmail4">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                <label>Name</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
               </div>
               <div class="form-group col-md-6">
                 <label for="inputPassword4">Contact</label>
-                <input type="number" class="form-control" id="inputPassword4" placeholder="Mobile Number">
+                <input type="text" class="form-control" id="inputPassword4" placeholder="Mobile Number / Email">
               </div>
             </div>
             <div class="form-group">
               <label for="inputAddress">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              <input type="text" class="form-control" id="inputAddress" placeholder="Apartment No., Building, Society">
             </div>
             <div class="form-group">
               <label for="inputAddress2">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Street, Locality, Landmark">
             </div>
             <div class="form-row">
               <div class="form-group col-md-6">
@@ -153,26 +159,19 @@
               </div>
               <div class="form-group col-md-4">
                 <label for="inputState">State</label>
-                <select id="inputState" class="form-control">
-                  <option selected>Choose...</option>
-                  <option>...</option>
-                </select>
+                <input type="text" class="form-control" id="inputCity">
               </div>
               <div class="form-group col-md-2">
                 <label for="inputZip">Zip</label>
                 <input type="text" class="form-control" id="inputZip">
               </div>
             </div>
-            <div class="form-group">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
-                </label>
-              </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Order Details</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div class="text-center">
-              <button type="submit" class="btn btn-success px-lg-5" style="border-radius: 30px;">Submit Order</button>
+              <button type="submit" class="btn px-lg-5" style="border-radius: 30px;background-color: #047728; color: white;">Submit Order</button>
             </div>
           </form>
         </div>

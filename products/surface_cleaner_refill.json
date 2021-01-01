@@ -1,5 +1,5 @@
 {
-	"title": "Surface Cleaner Refill",
+	"title": "Surface Cleaner Spray Refill",
 	"description": "Water based multipurpose spray for all surfaces for all surfaces, glass, car seat etc.",
 	"images": [
 		"assets/photo/HomeCare/SurfaceCleanerRefill.jpg"
@@ -15,5 +15,6 @@
 	"how-to-use": [
 		"Fill it in empty spray bottle. <br>It is a ready to use multipurpose spray. Keep about six-inch (or as per your requirement) distance away from surface to be sprayed. Wipe with soft cloth or sponge (depending upon surface)."
 	],
-	"available": "1 Ltr, 5 Ltrs"
+	"available": "1 Ltr, 5 Ltrs",
+	"home-care": true
 }

@@ -18,5 +18,6 @@
 		"Rinse cap with water so there will be no wastage of liquid detergent. ",
 		"Rinse clothes with clean water thoroughly."
 	],
-	"available": "1 Ltr, 5 Ltrs"
+	"available": "1 Ltr, 5 Ltrs",
+	"home-care": true
 }
