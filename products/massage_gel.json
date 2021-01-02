@@ -14,11 +14,13 @@
 		"(-) The moisture rich base provides excellent massaging improving blood circulation in the epidermis thereby adding radiant glow to the skin."
 	],
 	"how-to-use": [
-		"Cleanse your face and place a tiny amount of gel onto your ring finger and dab the gel onto your face and neck in small dots. ",
-		"Massage it on your face and neck in an upward direction. ",
-		"Gently massage the gel into your skin using small, upward, circular motions. Never drag downward on your skin. ",
-		"Be sure to leave half inch margin around your eyes as this area is very sensitive. ",
-		"Massage your face until the gel is absorbed. Wash your face with lukewarm water."
+		"(-) Cleanse your face and place a tiny amount of gel onto your ring finger and dab the gel onto your face and neck in small dots. ",
+		"(-) Massage it on your face and neck in an upward direction. ",
+		"(-) Gently massage the gel into your skin using small, upward, circular motions. Never drag downward on your skin. ",
+		"(-) Be sure to leave half inch margin around your eyes as this area is very sensitive. ",
+		"(-) Massage your face until the gel is absorbed. Wash your face with lukewarm water."
 	],
-	"available": "100 gm"
+	"available": "<br>100 gm at MRP ₹ 105",
+    "prev": "face_scrub",
+    "next": "face_pack"
 }

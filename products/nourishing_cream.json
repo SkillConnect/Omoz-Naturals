@@ -15,11 +15,13 @@
 		"(-) It can be used as all season cream"
 	],
 	"how-to-use": [
-		"Wash your face with luke warm water.  Splash your face with cold water and gently pat it dry with a soft towel. ",
-		"Place a tiny amount of cream onto your ring finger and dab the cream onto your face in small dots. ",
-		"Gently massage the cream into your skin using small, upward, circular motions. Never drag downward on your skin.  ",
-		"Be sure to leave half inch margin around your eyes as this area is very sensitive.  ",
-		"Wait for your skin to absorb the cream before getting dressed or putting on makeup."
+		"(-) Wash your face with luke warm water.  Splash your face with cold water and gently pat it dry with a soft towel. ",
+		"(-) Place a tiny amount of cream onto your ring finger and dab the cream onto your face in small dots. ",
+		"(-) Gently massage the cream into your skin using small, upward, circular motions. Never drag downward on your skin.  ",
+		"(-) Be sure to leave half inch margin around your eyes as this area is very sensitive.  ",
+		"(-) Wait for your skin to absorb the cream before getting dressed or putting on makeup."
 	],
-	"available": "100 gm, 200 gm"
+	"available": "<br>100 gm at MRP ₹ 105",
+    "prev": "face_wash",
+    "next": "face_scrub"
 }

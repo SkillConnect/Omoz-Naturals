@@ -16,11 +16,13 @@
 		"(-) Omoz liquid hand wash gives you complete cleaning of hands with nourishment and keeps them soft"
 	],
 	"how-to-use": [
-		"Wet your hands with clean water. ",
-		"Apply liquid hand wash to the inside and back of your both hands, palm, fingertips, Nails. ",
-		"Rub your both hands and move your fingertips around both hands. ",
-		"Rinse with clean water to wash away. ",
-		"Dry your hand completely."
+		"(-) Wet your hands with clean water. ",
+		"(-) Apply liquid hand wash to the inside and back of your both hands, palm, fingertips, Nails. ",
+		"(-) Rub your both hands and move your fingertips around both hands. ",
+		"(-) Rinse with clean water to wash away. ",
+		"(-) Dry your hand completely."
 	],
-	"available": "500 ml Pump, 500 ml Refill, 5 Ltrs"
+	"available": "<br>500 ml Pump at MRP ₹ 150<br> 100 ml Refill at MRP ₹ 60<br> 500 ml Refill at MRP ₹ 130<br>  1 Ltr at MRP ₹ 195<br>  5 Ltrs at MRP ₹ 925",
+    "prev": "body_lotion",
+    "next": "hand_wash"
 }

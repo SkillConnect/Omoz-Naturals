@@ -13,8 +13,10 @@
 		"(-) Very pleasant fragrance <br>"
 	],
 	"how-to-use": [
-		"Fill it in empty spray bottle. <br>It is a ready to use multipurpose spray. Keep about six-inch (or as per your requirement) distance away from surface to be sprayed. Wipe with soft cloth or sponge (depending upon surface)."
+		"(-) Fill it in empty spray bottle. <br>It is a ready to use multipurpose spray. Keep about six-inch (or as per your requirement) distance away from surface to be sprayed. Wipe with soft cloth or sponge (depending upon surface)."
 	],
-	"available": "1 Ltr, 5 Ltrs",
-	"home-care": true
+	"available": "<br>100 ml at MRP ₹ 120",
+	"home-care": true,
+    "prev": "surface_cleaner_spray",
+    "next": "detergent"
 }

@@ -10,9 +10,11 @@
         "(-) The unique fragrance perceived longer giving the feeling of freshness."
     ],
     "how-to-use": [
-        "After washing with detergent and water rinse the clothes using fabric conditioner. <br> Doses:- <br>",
-        "Bucket wash :- one cap <br> Machine wash:- Two caps"
+        "(-) After washing with detergent and water rinse the clothes using fabric conditioner. <br> Doses:- <br>",
+        "(-) Bucket wash :- one cap <br> Machine wash:- Two caps"
     ],
-    "available": "1 Ltr",
-    "home-care": true
+    "available": "<br> 1 Ltr at MRP ₹ 225",
+    "home-care": true,
+    "prev": "detergent",
+    "next": "dishwash_gel"
 }

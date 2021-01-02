@@ -15,11 +15,13 @@
 		"(-) Very effective for skin protection and Nourishment <br>"
 	],
 	"how-to-use": [
-		"Wash your face with luke warm water.  Splash your face with cold water and gently pat it dry with a soft towel. ",
-		"Apply an even layer of face pack on your face and neck. ",
-		"Be sure to leave half inch margin around your eyes as this area is very sensitive. ",
-		"Leave it on for 10 to 15 minutes, then rinse of with water. Be sure to remove with circular motion to exfoliate. ",
-		"Use two to three times a week for the best result."
+		"(-) Wash your face with luke warm water.  Splash your face with cold water and gently pat it dry with a soft towel. ",
+		"(-) Apply an even layer of face pack on your face and neck. ",
+		"(-) Be sure to leave half inch margin around your eyes as this area is very sensitive. ",
+		"(-) Leave it on for 10 to 15 minutes, then rinse of with water. Be sure to remove with circular motion to exfoliate. ",
+		"(-) Use two to three times a week for the best result."
 	],
-	"available": "150 gm"
+	"available": "<br>150 gm at MRP ₹ 150",
+    "prev": "massage_gel",
+    "next": "body_lotion"
 }

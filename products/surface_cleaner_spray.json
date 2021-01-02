@@ -13,8 +13,10 @@
 		"(-) Very pleasant fragrance "
 	],
 	"how-to-use": [
-		"It is a ready to use multipurpose spray. Keep about six-inch (or as per your requirement) distance away from surface to be sprayed. Wipe with soft cloth or sponge (depending upon surface)."
+		"(-) It is a ready to use multipurpose spray. Keep about six-inch (or as per your requirement) distance away from surface to be sprayed. Wipe with soft cloth or sponge (depending upon surface)."
 	],
-	"available": "500 ml Pump",
-	"home-care": true
+	"available": "<br>500 ml Pump at MRP ₹ 180",
+	"home-care": true,
+    "prev": "surface_cleaner",
+    "next": "surface_cleaner_refill"
 }

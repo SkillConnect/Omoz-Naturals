@@ -11,8 +11,10 @@
 "(-) Neem and Tulsi cleans the acne prone oily skin thoroughly without any irritation  <br>",
 "(-) Glycerin prevent skin from drying" ],
 "how-to-use" : [
-	"Wash your face with plain water. " ,
-	"Apply Face wash and gently rub with fingers. ",
-	"Wash the face thoroughly with plain water."],
-"available": "120 ml"
+	"(-) Wash your face with plain water. " ,
+	"(-) Apply Face wash and gently rub with fingers. ",
+	"(-) Wash the face thoroughly with plain water."],
+"available": "<br>120 ml at MRP ₹ 140",
+"prev": "hair_shampoo",
+"next": "nourishing_cream"
 }

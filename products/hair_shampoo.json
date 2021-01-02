@@ -12,11 +12,13 @@
 "(-) Reduce hair fall <br>",
 "(-) Keratin absorbed by hair cuticles resulting in full volume and glossy hair"],
 "how-to-use" : [
-	"- Wet your hair <br>",
-	"- Apply shampoo to the scalp <br>",
-	"- Gently massage the shampoo onto the scalp to form lather <br>",
-	"- Wait for two minutes <br>",
-	"- Rinse throughout with water <br>"
+	"(-) Wet your hair <br>",
+	"(-) Apply shampoo to the scalp <br>",
+	"(-) Gently massage the shampoo onto the scalp to form lather <br>",
+	"(-) Wait for two minutes <br>",
+	"(-) Rinse throughout with water <br>"
 ],
-"available": "120 ml, 220ml"
+"available": "<br>120 ml at MRP ₹ 250<br> 220ml at MRP ₹ 390",
+"prev": "body_scrub",
+"next": "face_wash"
 }

@@ -29,8 +29,10 @@ function loadContents(data){
   var description = data["description"];
   var images = data["images"];
   var advantages = decorate(data["advantages"]);
-  var how = data["how-to-use"].join(" ");
+  var how =  decorate(data["how-to-use"]);
   var available = data["available"];
+  var prev = data["prev"];
+  var next = data["next"];
 
   var isHomeCare = data["home-care"]
   if(isHomeCare){
@@ -45,6 +47,8 @@ function loadContents(data){
   document.getElementById("images").innerHTML = createImages(images)
   document.getElementById("defaultImage").style = "display:none"
   document.getElementById("available").innerHTML = `${available}`
+  document.getElementById("prev").href +=  `${prev}`
+  document.getElementById("next").href +=  `${next}`
 
   // Portfolio details carousel
   $(".owl-carousel").owlCarousel({

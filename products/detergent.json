@@ -14,10 +14,12 @@
 		"(-) Pleasant fragrance"
 	],
 	"how-to-use": [
-		"Pour liquid in to the cap as per recommended dosage on bottle and pour in washing machine. ",
-		"Rinse cap with water so there will be no wastage of liquid detergent. ",
-		"Rinse clothes with clean water thoroughly."
+		"(-) Pour liquid in to the cap as per recommended dosage on bottle and pour in washing machine. ",
+		"(-) Rinse cap with water so there will be no wastage of liquid detergent. ",
+		"(-) Rinse clothes with clean water thoroughly."
 	],
-	"available": "1 Ltr, 5 Ltrs",
-	"home-care": true
+	"available": "<br> 1 Ltr at MRP ₹ 185 <br> 5 Ltrs at MRP ₹ 900",
+	"home-care": true,
+    "prev": "surface_cleaner_refill",
+    "next": "conditioner"
 }

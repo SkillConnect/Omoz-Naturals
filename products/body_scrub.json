@@ -1,20 +1,20 @@
 {
-"title": "Herbal Face & Body Scrub",
-"description": "Blend of natural, herbal powders with essential oils. A natural exfoliant and cleanser. Provides flawless skin and glowing complexion.",
-"images": [
-	"assets/photo/BodyScrub.jpg"
-],
-"advantages": ["(-) Suited for all types of skin <br>",
-"(-) Special scrub enriched with natural Apricot Oil and Almond Oil <br>",
-"(-) It provides excellent massage and helps removing dead cells <br>",
-"(-) Help in to remove black heads <br>",
-"(-) Gives fresh rejuvenate looks to the skin" ],
-"how-to-use" : [
-	"Wash your face with luke warm water. ",
-	"Splash your face with cold water and gently pat it dry with a soft towel. ",
-	"Apply an even layer of gel on your face and neck. ",
-	"Be sure to leave half inch margin around your eyes as this area is very sensitive. ",
-	"Leave it on for 10 to 15 minutes, then rinse of with water. Be sure to remove with circular motion to exfoliate. ",
-	"Use two to three times a week for the best result. "],
-"available": "100 gm, 500 gm, 1 kg"
+	"title": "Herbal Face & Body Scrub",
+	"description": "Omoz Naturals face and body scrub is powder blend of natural, harbal powders with essential oils.",
+	"images": [
+		"assets/photo/BodyScrub.jpg"
+	],
+	"advantages": [
+		"(-) It is great replacement for soap as it contains all ingredients in natural form. <br>",
+		"(-) It is a natural exfoliant and cleanser. <br>",
+		"(-) Provides  flawless skin and glowing complexion."
+	],
+	"how-to-use": [
+		"(-) Mix the scrub with required amount of water/ rose water/ coconut water/ Aloe Vera gel/ milk/ honey to make paste.",
+		"(-) Apply  on skin, leave for 10 minutes, rub gently and wash with water.",
+		"(-) For best results use atleast 3 times a week. "
+	],
+	"available": "<br> 100 gm at MRP ₹ 240 <br> 500 gm at MRP ₹ 1100",
+	"prev": "aloe_vera",
+	"next": "hair_shampoo"
 }
