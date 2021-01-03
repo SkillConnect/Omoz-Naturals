@@ -1,4 +1,39 @@
-/* Personalised */
+/*--------------------------------------------------------------
+ Index Slider 
+ --------------------------------------------------------------*/
+#desktopSlider{
+  margin-top: 130px;
+  background-color: #caf9b5;
+  height: calc(100vh - 230px);
+  text-align: center;
+}
+#desktopSlider img{
+  height: 90%;
+  width: auto;
+  margin-top: 30px;
+}
+#mobileSlider, #mobileCaption{
+  display: none;
+}
+#mobileCaption, #desktopCaption{
+  margin: 0 auto;
+  height: 100px;
+  background: #caf9b5;
+}
+@media (max-width: 700px) {
+  #mobileSlider{
+    display: block;
+    margin-top: 90px;
+  }
+  #desktopCaption{display: none;}
+  #mobileCaption{display: block;}
+  #desktopSlider{
+    display: none;
+  }
+}
+/*--------------------------------------------------------------
+ Personalised 
+ --------------------------------------------------------------*/
 .center {
   margin: 0;
   position: absolute;

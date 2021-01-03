@@ -1,6 +1,6 @@
 {
 	"title": "Surface Cleaner Spray",
-	"description": "Water based multipurpose spray for all surfaces for all surfaces, glass, car seat etc.",
+	"description": "Water based multipurpose spray for all surfaces, glass, car seat etc.",
 	"imageCount": 3,
 	"images": [
 		"assets/photo/HomeCare/Spray1.jpg"
@@ -13,7 +13,9 @@
 		"(-) Very pleasant fragrance "
 	],
 	"how-to-use": [
-		"(-) It is a ready to use multipurpose spray. Keep about six-inch (or as per your requirement) distance away from surface to be sprayed. Wipe with soft cloth or sponge (depending upon surface)."
+		"(-) It is a ready to use multipurpose spray.",
+		"(-) Keep about six-inch (or as per your requirement) distance away from surface to be sprayed.",
+		"(-)  Wipe with soft cloth or sponge (depending upon surface)."
 	],
 	"available": "<br>500 ml Pump at MRP ₹ 180",
 	"home-care": true,

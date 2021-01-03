@@ -1,21 +1,24 @@
 {
 	"title": "Surface Cleaner Spray Refill",
-	"description": "Water based multipurpose spray for all surfaces for all surfaces, glass, car seat etc.",
+	"description": "Water based multipurpose spray refill for all surfaces for all surfaces, glass, car seat etc.",
 	"images": [
 		"assets/photo/HomeCare/SurfaceCleanerRefill.jpg"
 	],
 	"advantages": [
 		"(-) It is a multipurpose surface cleaner. <br>",
-		"(-) Completely cleans your floors, walls, oily kitchen tyles, toilet and surfaces <br>",
+		"(-) Completely cleans your floors, walls, oily kitchen tiles, toilet and surfaces <br>",
 		"(-) Gives good shine to your floor and surfaces <br>",
 		"(-) Can be used for car washing <br>",
 		"(-) Effective in removing stubborn stain in concentrated form <br>",
 		"(-) Very pleasant fragrance <br>"
 	],
 	"how-to-use": [
-		"(-) Fill it in empty spray bottle. <br>It is a ready to use multipurpose spray. Keep about six-inch (or as per your requirement) distance away from surface to be sprayed. Wipe with soft cloth or sponge (depending upon surface)."
+		"(-) Fill it in empty spray bottle.",
+		"(-) It is a ready to use multipurpose spray.",
+		"(-) Keep about six-inch (or as per your requirement) distance away from surface to be sprayed.",
+		"(-) Wipe with soft cloth or sponge (depending upon surface)."
 	],
-	"available": "<br>100 ml at MRP ₹ 120",
+	"available": "<br>100 ml at MRP ₹ 120 <br>1000 ml MRP ₹ 150",
 	"home-care": true,
     "prev": "surface_cleaner_spray",
     "next": "detergent"

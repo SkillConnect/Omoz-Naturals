@@ -1,6 +1,6 @@
 {
 	"title": "Face Scrub Apricot",
-	"description": "New one to be provided",
+	"description": "Omoz Naturals face scrub is a creamy cleanser enriched with apricot kernel oil and almond oil.",
 	"images": [
 		"assets/photo/FaceScrub1.jpg",
 		"assets/photo/FaceScrub2.jpg"
@@ -12,7 +12,15 @@
 		"(-) Help in to remove black heads <br>",
 		"(-) Gives fresh rejuvenate looks to the skin <br>"
 	],
-	"how-to-use": ["(-) New one to be provided"
+	"how-to-use": [
+		"(-) Wash your face with luke warm water. ",
+		"(-) Splash your face with cold water and gently pat it dry with a soft towel. ",
+		"(-) Apply an even layer of gel on your face and neck. ",
+		"(-) Be sure to leave half inch margin around your eyes as this area is very sensitive. ",
+		"(-) Massage the scrub gently all over the face and neck.",
+		"(-) After scrubbing wash the face with water. ",
+		"(-) Take steam and apply face pack.",
+		"(-) Do not use on erupted damaged skin."
 	],
 	"available": "<br> 100 gm at MRP ₹ 105",
 	"prev": "nourishing_cream",
