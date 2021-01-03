@@ -1,10 +1,9 @@
 {
 	"title": "Face Pack - Lavender & Sandal",
-	"description": "The Face Pack is enriched with Sandal and Lavender extract. Sandalwood has antiseptic properties that prevent pimples, acne and sores from development. The antifungal properties of Lavender sooth your skin and help to reduce inflammation.",
+	"description": "The Face Pack is enriched with Sandal and Lavender extract.",
 	"images": [
 		"assets/photo/FacePack1.jpg",
-		"assets/photo/FacePack2.jpg",
-		"assets/photo/FacePack3.jpg"
+		"assets/photo/FacePack2.jpg"
 	],
 	"advantages": [
 		"(-) Useful for all types of skin <br>",

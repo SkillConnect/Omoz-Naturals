@@ -1,10 +1,8 @@
 {
 	"title": "Massage Gel",
-	"description": "The cream is enriched with micro encapsulated granules of Orange extract with Enzyme rich Papaya base.",
+	"description": "The gel is enriched with micro encapsulated granules of Orange extract with Enzyme rich Papaya base.",
 	"images": [
-		"assets/photo/MassageGel1.jpg",
-		"assets/photo/MassageGel2.jpg",
-		"assets/photo/MassageGel3.jpg"
+		"assets/photo/MassageGel1.jpg"
 	],
 	"advantages": [
 		"(-) Papaya and Orange has vitamin A and C which is good for skin. <br>",
