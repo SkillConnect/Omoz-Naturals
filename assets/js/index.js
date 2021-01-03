@@ -10,7 +10,7 @@
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
-    autoplayTimeout: 30000,
+    autoplayTimeout: 22000,
     autoplayHoverPause: true,
     dots: true,
     loop: true,
