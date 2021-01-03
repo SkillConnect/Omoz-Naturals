@@ -132,47 +132,58 @@
           <h3 class="text-default">Omoz Naturals Orders Form</h3>
         </div>
         <div class="card-body px-lg-5 ">
-          <form>
+          <form enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScSxKmkieAOigA-2TC905YsWKMY3ExAJWf9U_dFMFf-dFPJhQ/formResponse?" target="hidden_iframe" onsubmit="func()">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label>Name</label>
-                <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+                <label>Name <span style="color:red">*</span></label>
+                <input type="text" class="form-control" id="entry.2119346266" name="entry.2119346266" required placeholder="Name">
               </div>
               <div class="form-group col-md-6">
-                <label for="inputPassword4">Contact</label>
-                <input type="text" class="form-control" id="inputPassword4" placeholder="Mobile Number / Email">
+                <label for="inputPassword4">Contact <span style="color:red">*</span></label>
+                <input type="text" class="form-control" id="entry.2011425800" name="entry.2011425800" required placeholder="Mobile Number / Email">
               </div>
             </div>
             <div class="form-group">
-              <label for="inputAddress">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Apartment No., Building, Society">
+              <label for="inputAddress">Address <span style="color:red">*</span></label>
+              <input type="text" class="form-control" id="entry.77057963" name="entry.77057963" required placeholder="Apartment No., Building, Society">
             </div>
             <div class="form-group">
               <label for="inputAddress2">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Street, Locality, Landmark">
+              <input type="text" class="form-control" id="entry.17560617" name="entry.17560617" placeholder="Street, Locality, Landmark">
             </div>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity">
+                <label for="inputCity">City <span style="color:red">*</span></label>
+                <input type="text" class="form-control" id="entry.1986216768" name="entry.1986216768" required>
               </div>
               <div class="form-group col-md-4">
-                <label for="inputState">State</label>
-                <input type="text" class="form-control" id="inputCity">
+                <label for="inputState">State <span style="color:red">*</span></label>
+                <input type="text" class="form-control" id="entry.1973319767" name="entry.1973319767" required>
               </div>
               <div class="form-group col-md-2">
-                <label for="inputZip">Zip</label>
-                <input type="text" class="form-control" id="inputZip">
+                <label for="inputZip">Zip <span style="color:red">*</span></label>
+                <input type="text" class="form-control" id="entry.319603873" name="entry.319603873" required>
               </div>
             </div>
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Order Details</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <label for="exampleFormControlTextarea1" class="form-label">Order Details <span style="color:red">*</span></label>
+              <textarea class="form-control" id="entry.1430395160" name="entry.1430395160" rows="3" required></textarea>
             </div>
             <div class="text-center">
               <button type="submit" class="btn px-lg-5" style="border-radius: 30px;background-color: #047728; color: white;">Submit Order</button>
             </div>
           </form>
+          <iframe name="hidden_iframe" style="display:none;"></iframe>
+          <script type="text/javascript">
+            async function func(){
+              await Swal.fire(
+                'Thank you!',
+                "Your order has been received! We'll reach out to you shortly.",
+                'success'
+              )
+              location.reload()
+            }
+          </script>
         </div>
       </div>
 
@@ -195,6 +206,7 @@
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
