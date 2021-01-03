@@ -25,11 +25,8 @@
     display: block;
     margin-top: 90px;
   }
-  #desktopCaption{display: none;}
+  #desktopCaption, #desktopSlider{display: none;}
   #mobileCaption{display: block;}
-  #desktopSlider{
-    display: none;
-  }
 }
 /*--------------------------------------------------------------
  Personalised 
